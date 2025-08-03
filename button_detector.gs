@@ -39,6 +39,7 @@ enum ScratchButtons {
     }
 
 func button_detector() {
+    # The button detector only works if you have the correct sprite position
     assert_eq x_position(), 0, "x_position(): ";
     assert_eq y_position(), 0, "y_position(): ";
     assert_eq size(), 100, "size(): ";
@@ -62,3 +63,5 @@ func button_detector() {
     switch_costume og_cos;
     return ScratchButtons.none;
 }
+
+%undef DETECT_BUTTON
