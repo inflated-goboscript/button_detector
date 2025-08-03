@@ -3,7 +3,7 @@
 > Detect mouse hover over scratch ui elements
 
 This is a button detector library which is built for [goboscript](https://github.com/aspizu/goboscript).
-It is based on [the stdlib implementation](https://github.com/goboscript/std/), but it is designed to be used with [inflator](https://github.com/faretek1/inflator).
+It is designed to be used with [inflator](https://github.com/faretek1/inflator).
 
 ## Credits
 
