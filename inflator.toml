@@ -1,7 +1,7 @@
 # inflator.toml syntax documentation: https://github.com/faretek1/inflator#inflator
 name = 'button_detector'
 version = "v0.0.0"
-username = "FAReTek1"
+username = "inflated-goboscript"
 
 [dependencies]
-assert = "https://github.com/FAReTek1/assert"
+assert = "https://github.com/inflated-goboscript/assert"
