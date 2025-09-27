@@ -1,6 +1,3 @@
-%if not _FARETEK_INCLUDE_BUTTON_DETECTOR
-%define _FARETEK_INCLUDE_BUTTON_DETECTOR
-
 %include inflator/assert
 
 costumes "inflator/button_detector/assets/add to studio.svg"         as "button_detector.gs//add to studio";
@@ -66,6 +63,3 @@ func button_detector() {
     switch_costume og_cos;
     return ScratchButtons.none;
 }
-
-%undef DETECT_BUTTON
-%endif
