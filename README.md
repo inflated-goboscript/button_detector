@@ -11,15 +11,15 @@ It is designed to be used with [inflator](https://github.com/inflated-goboscript
 
 ## Installation
 
-Make sure you have inflator installed
+Make sure you have inflator installed. It's installable from the gtp.
 
-`inflate install https://github.com/inflated-goboscript/button_detector`
+`inflate install button_detector`
 
 add button_detector to your `inflator.toml` config:
 ```toml
 [dependencies]
 # ...
-button_detector = "https://github.com/inflated-goboscript/button_detector"
+button_detector = "button_detector"
 ```
 
 ## Development
